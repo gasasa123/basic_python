@@ -85,7 +85,7 @@ for i in l1:
 # shvilisrael
 shvil = []
 sum = 0
-for i in range(2):
+for i in range(20):
     name = input("enter a name: ")
     dist = int(input("enter a length: "))
     shvil.append([name,dist])
