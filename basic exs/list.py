@@ -85,11 +85,14 @@ for i in l1:
 # shvilisrael
 shvil = []
 sum = 0
-for i in range(20):
+for i in range(4):
     name = input("enter a name: ")
     dist = int(input("enter a length: "))
-    shvil.append([name , dist])
-    sum += dist
+    shvil.append([dist])
+
     if dist > 10:
+        sum += dist
         print(dist)
+
+print(sum)
 
