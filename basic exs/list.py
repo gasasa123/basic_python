@@ -108,19 +108,22 @@ for i in range(5):
 
 print(sum)
 
-# 9 להמשיך
-o = 0
-sum = 0
+# # 9 להמשיך
+count = 0
 for i in range(3):
-    name=input("please enter your name : ")
-    year=int(input("please enter your birth year : "))
-    blood=input("please enter your blood type : ")
-    print(name,year,blood)
-if blood == o:
-print(count(o))
+    name = input("please enter your name : ")
+    year = int(input("please enter your birth year : "))
+    blood = input("please enter your blood type a/o/b/ab: ")
+    if blood == 'o':
+       count = count+1
+
+    print(name, year, blood)
+print(count)
 
 # 10
 word = input("enter some word :")
 word_list = list(word)
 print(word_list)
+print(len(word))
+
 
