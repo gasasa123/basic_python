@@ -108,7 +108,7 @@ for i in range(5):
 
 print(sum)
 
-# # 9 להמשיך
+# 9
 count = 0
 for i in range(3):
     name = input("please enter your name : ")
